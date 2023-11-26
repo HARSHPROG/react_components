@@ -1,0 +1,25 @@
+
+.accordian {
+   max-width: 15rem;
+}
+
+.accordian button {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordian button:hover {
+    background: var(--primary-color);
+}
+
+.accordian .content {
+    padding: 0.5rem;
+    background: #f7f7f7;
+}
